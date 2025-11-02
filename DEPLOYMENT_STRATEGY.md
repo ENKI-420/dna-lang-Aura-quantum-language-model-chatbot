@@ -44,7 +44,7 @@ def get_users():
 \`\`\`
 
 **DNA-Lang Organism:**
-```dna
+\`\`\`dna
 ORGANISM UserAPI {
   DNA {
     domain: "api_service"
