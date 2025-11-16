@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "experiment:gamma": "tsx experimental-suite/experiments/gamma-spike-detector.ts",
+    "experiment:gamma:quick": "tsx experimental-suite/experiments/gamma-spike-detector.ts --quick"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
