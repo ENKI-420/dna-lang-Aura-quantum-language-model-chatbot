@@ -1,0 +1,855 @@
+{
+  "config": {
+    "duration_minutes": 2,
+    "gamma_threshold": 0.3,
+    "measurement_interval_seconds": 10,
+    "control_group_size": 3,
+    "treatment_group_size": 3,
+    "backend": "ibm_simulator",
+    "output_dir": "/home/user/dna-lang-Aura-quantum-language-model-chatbot/experimental-suite/results"
+  },
+  "start_time": 1763307644351,
+  "end_time": 1763307764379,
+  "gamma_spikes": [
+    {
+      "timestamp": 1763307644353,
+      "gamma": 84.33044367439226,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 55.05333763555669,
+      "t2_variance": 29.2740743024012,
+      "gate_error_mean": 0.00303173643436442
+    },
+    {
+      "timestamp": 1763307654357,
+      "gamma": 382.41310141901045,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 247.0690639456122,
+      "t2_variance": 135.34344399549,
+      "gate_error_mean": 0.0005934779082259173
+    },
+    {
+      "timestamp": 1763307664361,
+      "gamma": 343.26399688850904,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 203.63517795180042,
+      "t2_variance": 139.6282530892589,
+      "gate_error_mean": 0.0005658474496939241
+    },
+    {
+      "timestamp": 1763307674362,
+      "gamma": 351.2865706830186,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 222.31586833998804,
+      "t2_variance": 128.9700755955223,
+      "gate_error_mean": 0.0006267475083119906
+    },
+    {
+      "timestamp": 1763307684364,
+      "gamma": 79.21359646637016,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 50.48516119394917,
+      "t2_variance": 28.725509762956516,
+      "gate_error_mean": 0.0029255094644762432
+    },
+    {
+      "timestamp": 1763307694367,
+      "gamma": 343.2937242774855,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 199.92306307904735,
+      "t2_variance": 143.37005711905542,
+      "gate_error_mean": 0.0006040793827754937
+    },
+    {
+      "timestamp": 1763307704369,
+      "gamma": 306.412329298616,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 167.97277464211956,
+      "t2_variance": 138.43894422193316,
+      "gate_error_mean": 0.0006104345632446529
+    },
+    {
+      "timestamp": 1763307714371,
+      "gamma": 367.080606894684,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 224.11027368204128,
+      "t2_variance": 142.96976403559705,
+      "gate_error_mean": 0.0005691770457167962
+    },
+    {
+      "timestamp": 1763307724372,
+      "gamma": 306.2800242759438,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 188.92870546792693,
+      "t2_variance": 117.35068662477718,
+      "gate_error_mean": 0.0006321832396227907
+    },
+    {
+      "timestamp": 1763307734375,
+      "gamma": 327.6200714320337,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 212.80544607580433,
+      "t2_variance": 114.81404176946876,
+      "gate_error_mean": 0.0005835867606227053
+    },
+    {
+      "timestamp": 1763307744376,
+      "gamma": 83.8432496180115,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 50.288615587944655,
+      "t2_variance": 33.551488979397185,
+      "gate_error_mean": 0.003145050669658759
+    },
+    {
+      "timestamp": 1763307754377,
+      "gamma": 333.25681891225815,
+      "drift_norm": 0,
+      "backend": "ibm_simulator",
+      "t1_variance": 206.76190285704618,
+      "t2_variance": 126.4943282069922,
+      "gate_error_mean": 0.000587848219789338
+    }
+  ],
+  "control_responses": [
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0,
+      "post_spike_lambda": 0.011719146847704729,
+      "pre_spike_stability": 0.3,
+      "post_spike_stability": 2.6823184526098195e-7,
+      "variance_change": 0.011719146847704729,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0,
+      "post_spike_lambda": 0.011719146847704729,
+      "pre_spike_stability": 0.3,
+      "post_spike_stability": 2.6852364129688213e-7,
+      "variance_change": 0.011719146847704729,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0,
+      "post_spike_lambda": 0.011719146847704729,
+      "pre_spike_stability": 0.3,
+      "post_spike_stability": 2.651674497091683e-7,
+      "variance_change": 0.011719146847704729,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.011719146847704729,
+      "post_spike_lambda": 0.0026081529199158916,
+      "pre_spike_stability": 2.6823184526098195e-7,
+      "post_spike_stability": 5.8005474489496235e-9,
+      "variance_change": 0.009110993927788837,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.011719146847704729,
+      "post_spike_lambda": 0.0026081529199158916,
+      "pre_spike_stability": 2.6852364129688213e-7,
+      "post_spike_stability": 5.920149221054411e-9,
+      "variance_change": 0.009110993927788837,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.011719146847704729,
+      "post_spike_lambda": 0.0026081529199158916,
+      "pre_spike_stability": 2.651674497091683e-7,
+      "post_spike_stability": 5.6672303382110684e-9,
+      "variance_change": 0.009110993927788837,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0026081529199158916,
+      "post_spike_lambda": 0.0029047475455990044,
+      "pre_spike_stability": 5.8005474489496235e-9,
+      "post_spike_stability": 7.377163639933271e-9,
+      "variance_change": 0.0002965946256831128,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0026081529199158916,
+      "post_spike_lambda": 0.0029047475455990044,
+      "pre_spike_stability": 5.920149221054411e-9,
+      "post_spike_stability": 7.1780904679176135e-9,
+      "variance_change": 0.0002965946256831128,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0026081529199158916,
+      "post_spike_lambda": 0.0029047475455990044,
+      "pre_spike_stability": 5.6672303382110684e-9,
+      "post_spike_stability": 7.950489945617112e-9,
+      "variance_change": 0.0002965946256831128,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0029047475455990044,
+      "post_spike_lambda": 0.0028385981278286725,
+      "pre_spike_stability": 7.377163639933271e-9,
+      "post_spike_stability": 7.202018324838914e-9,
+      "variance_change": 0.00006614941777033194,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0029047475455990044,
+      "post_spike_lambda": 0.0028385981278286725,
+      "pre_spike_stability": 7.1780904679176135e-9,
+      "post_spike_stability": 7.2403361166904635e-9,
+      "variance_change": 0.00006614941777033194,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0029047475455990044,
+      "post_spike_lambda": 0.0028385981278286725,
+      "pre_spike_stability": 7.950489945617112e-9,
+      "post_spike_stability": 7.302906598815294e-9,
+      "variance_change": 0.00006614941777033194,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0028385981278286725,
+      "post_spike_lambda": 0.012466714423149616,
+      "pre_spike_stability": 7.202018324838914e-9,
+      "post_spike_stability": 5.760245238688195e-7,
+      "variance_change": 0.009628116295320944,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0028385981278286725,
+      "post_spike_lambda": 0.012466714423149616,
+      "pre_spike_stability": 7.2403361166904635e-9,
+      "post_spike_stability": 6.208360831676328e-7,
+      "variance_change": 0.009628116295320944,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0028385981278286725,
+      "post_spike_lambda": 0.012466714423149616,
+      "pre_spike_stability": 7.302906598815294e-9,
+      "post_spike_stability": 5.69055747569059e-7,
+      "variance_change": 0.009628116295320944,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.012466714423149616,
+      "post_spike_lambda": 0.002904496740678445,
+      "pre_spike_stability": 5.760245238688195e-7,
+      "post_spike_stability": 7.964636575551556e-9,
+      "variance_change": 0.009562217682471171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.012466714423149616,
+      "post_spike_lambda": 0.002904496740678445,
+      "pre_spike_stability": 6.208360831676328e-7,
+      "post_spike_stability": 8.208724479162691e-9,
+      "variance_change": 0.009562217682471171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.012466714423149616,
+      "post_spike_lambda": 0.002904496740678445,
+      "pre_spike_stability": 5.69055747569059e-7,
+      "post_spike_stability": 7.554749435068539e-9,
+      "variance_change": 0.009562217682471171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.002904496740678445,
+      "post_spike_lambda": 0.0032529599651437992,
+      "pre_spike_stability": 7.964636575551556e-9,
+      "post_spike_stability": 1.0783008742452116e-8,
+      "variance_change": 0.0003484632244653541,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.002904496740678445,
+      "post_spike_lambda": 0.0032529599651437992,
+      "pre_spike_stability": 8.208724479162691e-9,
+      "post_spike_stability": 1.114020585881806e-8,
+      "variance_change": 0.0003484632244653541,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.002904496740678445,
+      "post_spike_lambda": 0.0032529599651437992,
+      "pre_spike_stability": 7.554749435068539e-9,
+      "post_spike_stability": 1.1006807217881936e-8,
+      "variance_change": 0.0003484632244653541,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0032529599651437992,
+      "post_spike_lambda": 0.0027167962160150484,
+      "pre_spike_stability": 1.0783008742452116e-8,
+      "post_spike_stability": 6.442292186992471e-9,
+      "variance_change": 0.0005361637491287509,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0032529599651437992,
+      "post_spike_lambda": 0.0027167962160150484,
+      "pre_spike_stability": 1.114020585881806e-8,
+      "post_spike_stability": 6.43885565832392e-9,
+      "variance_change": 0.0005361637491287509,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0032529599651437992,
+      "post_spike_lambda": 0.0027167962160150484,
+      "pre_spike_stability": 1.1006807217881936e-8,
+      "post_spike_stability": 6.0100404161755295e-9,
+      "variance_change": 0.0005361637491287509,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0027167962160150484,
+      "post_spike_lambda": 0.0032543605864271195,
+      "pre_spike_stability": 6.442292186992471e-9,
+      "post_spike_stability": 1.0281009369732169e-8,
+      "variance_change": 0.0005375643704120712,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0027167962160150484,
+      "post_spike_lambda": 0.0032543605864271195,
+      "pre_spike_stability": 6.43885565832392e-9,
+      "post_spike_stability": 1.00488969110442e-8,
+      "variance_change": 0.0005375643704120712,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0027167962160150484,
+      "post_spike_lambda": 0.0032543605864271195,
+      "pre_spike_stability": 6.0100404161755295e-9,
+      "post_spike_stability": 1.1339287584103025e-8,
+      "variance_change": 0.0005375643704120712,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0032543605864271195,
+      "post_spike_lambda": 0.0030430277604234024,
+      "pre_spike_stability": 1.0281009369732169e-8,
+      "post_spike_stability": 8.72319453683709e-9,
+      "variance_change": 0.0002113328260037171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0032543605864271195,
+      "post_spike_lambda": 0.0030430277604234024,
+      "pre_spike_stability": 1.00488969110442e-8,
+      "post_spike_stability": 8.6857122577281e-9,
+      "variance_change": 0.0002113328260037171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0032543605864271195,
+      "post_spike_lambda": 0.0030430277604234024,
+      "pre_spike_stability": 1.1339287584103025e-8,
+      "post_spike_stability": 8.40371273318504e-9,
+      "variance_change": 0.0002113328260037171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0030430277604234024,
+      "post_spike_lambda": 0.011786441520124289,
+      "pre_spike_stability": 8.72319453683709e-9,
+      "post_spike_stability": 5.171670593855234e-7,
+      "variance_change": 0.008743413759700887,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0030430277604234024,
+      "post_spike_lambda": 0.011786441520124289,
+      "pre_spike_stability": 8.6857122577281e-9,
+      "post_spike_stability": 5.443887107251367e-7,
+      "variance_change": 0.008743413759700887,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.0030430277604234024,
+      "post_spike_lambda": 0.011786441520124289,
+      "pre_spike_stability": 8.40371273318504e-9,
+      "post_spike_stability": 5.257958369919401e-7,
+      "variance_change": 0.008743413759700887,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-0",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.011786441520124289,
+      "post_spike_lambda": 0.0029917115924641712,
+      "pre_spike_stability": 5.171670593855234e-7,
+      "post_spike_stability": 8.792152656949649e-9,
+      "variance_change": 0.008794729927660118,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-1",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.011786441520124289,
+      "post_spike_lambda": 0.0029917115924641712,
+      "pre_spike_stability": 5.443887107251367e-7,
+      "post_spike_stability": 8.913949262519939e-9,
+      "variance_change": 0.008794729927660118,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-control-2",
+      "has_mutation": false,
+      "pre_spike_lambda": 0.011786441520124289,
+      "post_spike_lambda": 0.0029917115924641712,
+      "pre_spike_stability": 5.257958369919401e-7,
+      "post_spike_stability": 8.201691474383544e-9,
+      "variance_change": 0.008794729927660118,
+      "survival": false
+    }
+  ],
+  "treatment_responses": [
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0,
+      "post_spike_lambda": 0.011719146847704729,
+      "pre_spike_stability": 0.3,
+      "post_spike_stability": 2.5740696789720613e-7,
+      "variance_change": 0.011719146847704729,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0,
+      "post_spike_lambda": 0.011719146847704729,
+      "pre_spike_stability": 0.3,
+      "post_spike_stability": 2.586721358576607e-7,
+      "variance_change": 0.011719146847704729,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0,
+      "post_spike_lambda": 0.011719146847704729,
+      "pre_spike_stability": 0.3,
+      "post_spike_stability": 2.7881491353199675e-7,
+      "variance_change": 0.011719146847704729,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.011719146847704729,
+      "post_spike_lambda": 0.0026081529199158916,
+      "pre_spike_stability": 2.5740696789720613e-7,
+      "post_spike_stability": 5.675054720534129e-9,
+      "variance_change": 0.009110993927788837,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.011719146847704729,
+      "post_spike_lambda": 0.0026081529199158916,
+      "pre_spike_stability": 2.586721358576607e-7,
+      "post_spike_stability": 5.7029484494710635e-9,
+      "variance_change": 0.009110993927788837,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.011719146847704729,
+      "post_spike_lambda": 0.0026081529199158916,
+      "pre_spike_stability": 2.7881491353199675e-7,
+      "post_spike_stability": 6.147046089282708e-9,
+      "variance_change": 0.009110993927788837,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0026081529199158916,
+      "post_spike_lambda": 0.0029047475455990044,
+      "pre_spike_stability": 5.675054720534129e-9,
+      "post_spike_stability": 7.411564326484358e-9,
+      "variance_change": 0.0002965946256831128,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0026081529199158916,
+      "post_spike_lambda": 0.0029047475455990044,
+      "pre_spike_stability": 5.7029484494710635e-9,
+      "post_spike_stability": 7.970719569282008e-9,
+      "variance_change": 0.0002965946256831128,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0026081529199158916,
+      "post_spike_lambda": 0.0029047475455990044,
+      "pre_spike_stability": 6.147046089282708e-9,
+      "post_spike_stability": 7.141259704105599e-9,
+      "variance_change": 0.0002965946256831128,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0029047475455990044,
+      "post_spike_lambda": 0.0028385981278286725,
+      "pre_spike_stability": 7.411564326484358e-9,
+      "post_spike_stability": 7.147133415927262e-9,
+      "variance_change": 0.00006614941777033194,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0029047475455990044,
+      "post_spike_lambda": 0.0028385981278286725,
+      "pre_spike_stability": 7.970719569282008e-9,
+      "post_spike_stability": 7.335561051899963e-9,
+      "variance_change": 0.00006614941777033194,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0029047475455990044,
+      "post_spike_lambda": 0.0028385981278286725,
+      "pre_spike_stability": 7.141259704105599e-9,
+      "post_spike_stability": 7.406362555074172e-9,
+      "variance_change": 0.00006614941777033194,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0028385981278286725,
+      "post_spike_lambda": 0.012466714423149616,
+      "pre_spike_stability": 7.147133415927262e-9,
+      "post_spike_stability": 6.424453189797891e-7,
+      "variance_change": 0.009628116295320944,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0028385981278286725,
+      "post_spike_lambda": 0.012466714423149616,
+      "pre_spike_stability": 7.335561051899963e-9,
+      "post_spike_stability": 6.286472740232223e-7,
+      "variance_change": 0.009628116295320944,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0028385981278286725,
+      "post_spike_lambda": 0.012466714423149616,
+      "pre_spike_stability": 7.406362555074172e-9,
+      "post_spike_stability": 6.153705095185603e-7,
+      "variance_change": 0.009628116295320944,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.012466714423149616,
+      "post_spike_lambda": 0.002904496740678445,
+      "pre_spike_stability": 6.424453189797891e-7,
+      "post_spike_stability": 7.374934464348658e-9,
+      "variance_change": 0.009562217682471171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.012466714423149616,
+      "post_spike_lambda": 0.002904496740678445,
+      "pre_spike_stability": 6.286472740232223e-7,
+      "post_spike_stability": 7.578191425272075e-9,
+      "variance_change": 0.009562217682471171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.012466714423149616,
+      "post_spike_lambda": 0.002904496740678445,
+      "pre_spike_stability": 6.153705095185603e-7,
+      "post_spike_stability": 7.538359122078403e-9,
+      "variance_change": 0.009562217682471171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.002904496740678445,
+      "post_spike_lambda": 0.0032529599651437992,
+      "pre_spike_stability": 7.374934464348658e-9,
+      "post_spike_stability": 1.1103438265420854e-8,
+      "variance_change": 0.0003484632244653541,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.002904496740678445,
+      "post_spike_lambda": 0.0032529599651437992,
+      "pre_spike_stability": 7.578191425272075e-9,
+      "post_spike_stability": 1.1010260765361753e-8,
+      "variance_change": 0.0003484632244653541,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.002904496740678445,
+      "post_spike_lambda": 0.0032529599651437992,
+      "pre_spike_stability": 7.538359122078403e-9,
+      "post_spike_stability": 1.0946868125082412e-8,
+      "variance_change": 0.0003484632244653541,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0032529599651437992,
+      "post_spike_lambda": 0.0027167962160150484,
+      "pre_spike_stability": 1.1103438265420854e-8,
+      "post_spike_stability": 6.161681493062809e-9,
+      "variance_change": 0.0005361637491287509,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0032529599651437992,
+      "post_spike_lambda": 0.0027167962160150484,
+      "pre_spike_stability": 1.1010260765361753e-8,
+      "post_spike_stability": 6.441934343667901e-9,
+      "variance_change": 0.0005361637491287509,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0032529599651437992,
+      "post_spike_lambda": 0.0027167962160150484,
+      "pre_spike_stability": 1.0946868125082412e-8,
+      "post_spike_stability": 6.682340527004873e-9,
+      "variance_change": 0.0005361637491287509,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0027167962160150484,
+      "post_spike_lambda": 0.0032543605864271195,
+      "pre_spike_stability": 6.161681493062809e-9,
+      "post_spike_stability": 1.0984443088442508e-8,
+      "variance_change": 0.0005375643704120712,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0027167962160150484,
+      "post_spike_lambda": 0.0032543605864271195,
+      "pre_spike_stability": 6.441934343667901e-9,
+      "post_spike_stability": 1.0735772910864676e-8,
+      "variance_change": 0.0005375643704120712,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0027167962160150484,
+      "post_spike_lambda": 0.0032543605864271195,
+      "pre_spike_stability": 6.682340527004873e-9,
+      "post_spike_stability": 1.1582197633653723e-8,
+      "variance_change": 0.0005375643704120712,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0032543605864271195,
+      "post_spike_lambda": 0.0030430277604234024,
+      "pre_spike_stability": 1.0984443088442508e-8,
+      "post_spike_stability": 8.53259570116133e-9,
+      "variance_change": 0.0002113328260037171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0032543605864271195,
+      "post_spike_lambda": 0.0030430277604234024,
+      "pre_spike_stability": 1.0735772910864676e-8,
+      "post_spike_stability": 8.942851110030809e-9,
+      "variance_change": 0.0002113328260037171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0032543605864271195,
+      "post_spike_lambda": 0.0030430277604234024,
+      "pre_spike_stability": 1.1582197633653723e-8,
+      "post_spike_stability": 9.44254345445223e-9,
+      "variance_change": 0.0002113328260037171,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0030430277604234024,
+      "post_spike_lambda": 0.011786441520124289,
+      "pre_spike_stability": 8.53259570116133e-9,
+      "post_spike_stability": 5.111156787310122e-7,
+      "variance_change": 0.008743413759700887,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0030430277604234024,
+      "post_spike_lambda": 0.011786441520124289,
+      "pre_spike_stability": 8.942851110030809e-9,
+      "post_spike_stability": 5.196363312493526e-7,
+      "variance_change": 0.008743413759700887,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.0030430277604234024,
+      "post_spike_lambda": 0.011786441520124289,
+      "pre_spike_stability": 9.44254345445223e-9,
+      "post_spike_stability": 5.664502878516728e-7,
+      "variance_change": 0.008743413759700887,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-0",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.011786441520124289,
+      "post_spike_lambda": 0.0029917115924641712,
+      "pre_spike_stability": 5.111156787310122e-7,
+      "post_spike_stability": 8.79633481519896e-9,
+      "variance_change": 0.008794729927660118,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-1",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.011786441520124289,
+      "post_spike_lambda": 0.0029917115924641712,
+      "pre_spike_stability": 5.196363312493526e-7,
+      "post_spike_stability": 7.290553848473534e-9,
+      "variance_change": 0.008794729927660118,
+      "survival": false
+    },
+    {
+      "organism_id": "gamma-exp-treatment-2",
+      "has_mutation": true,
+      "pre_spike_lambda": 0.011786441520124289,
+      "post_spike_lambda": 0.0029917115924641712,
+      "pre_spike_stability": 5.664502878516728e-7,
+      "post_spike_stability": 7.193004115410703e-9,
+      "variance_change": 0.008794729927660118,
+      "survival": false
+    }
+  ],
+  "statistics": {
+    "control_variance": 0.000021962442046091775,
+    "treatment_variance": 0.000021962442046091775,
+    "variance_reduction": 0,
+    "p_value": 1,
+    "survival_rate_control": 0,
+    "survival_rate_treatment": 0
+  }
+}
