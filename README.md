@@ -2,9 +2,6 @@
 
 *Quantum organism evolution meets AI — complete 13-phase autopoietic architecture*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/devinphillipdavis-7227s-projects/v0-files7-2n)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/HzLh3KEIS9O)
-
 ## Overview
 
 A Next.js application integrating:
@@ -14,20 +11,6 @@ A Next.js application integrating:
   - Metabolism, consciousness, reproduction, ecology, civilization, cosmology, and epistemic self-modeling
 
 **ΛΦ = 2.176435 × 10⁻⁸ s⁻¹** — Universal Memory Constant
-
-This repository syncs with [v0.app](https://v0.app) deployments and extends DNALang with a groundbreaking quantum organism evolution system.
-
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/devinphillipdavis-7227s-projects/v0-files7-2n](https://vercel.com/devinphillipdavis-7227s-projects/v0-files7-2n)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/HzLh3KEIS9O](https://v0.app/chat/HzLh3KEIS9O)**
 
 ## Features
 
@@ -98,17 +81,6 @@ app/api/quantum-phases/
 └── evolve/          # Evolution endpoints
 ```
 
-## Deployment
-
-This project is live at:
-**[https://vercel.com/devinphillipdavis-7227s-projects/v0-files7-2n](https://vercel.com/devinphillipdavis-7227s-projects/v0-files7-2n)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
 
 ## Contributing
 
